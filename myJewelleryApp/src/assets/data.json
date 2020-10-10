@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "id": 101,
+      "img": "productbangel_(4).jpg",
+      "name": "Bangel",
+      "price": 100000,
+      "description": "24Kt gold neakleas for you "
+    },
+
+    {
+      "id": 102,
+      "img": "product6.jpg",
+      "name": "Earings",
+      "price": 100000,
+      "description": "24Kt gold Bangelas for you "
+    },
+    {
+      "id": 103,
+      "img": "product_necklace_(4).jpg",
+      "name": "Necklace",
+      "price": 100000,
+      "description": "24Kt gold Ring for you "
+    },
+    {
+      "id": 104,
+      "img": "ring.jpg",
+      "name": "Ring",
+      "price": 100000,
+      "description": "24Kt gold Bangelas for you "
+    }
+  ]
+}

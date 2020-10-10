@@ -1,0 +1,20 @@
+<div class="whiteWrapper">
+  <div class="container">
+    <h1>{{ goldRing_Title }}</h1>
+    <div class="row">
+      <div class="col-sm-3" *ngFor="let golditems_ring of GoldItemsRings">
+        <div class="productbox">
+          <div>
+            <img
+              src="../../../../assets/gold/rings/{{ golditems_ring.img }}"
+              class="img-fluid"
+            />
+          </div>
+          <div>{{ golditems_ring.name }}</div>
+          <div>{{ golditems_ring.price }}</div>
+          <div>{{ golditems_ring.descrption }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

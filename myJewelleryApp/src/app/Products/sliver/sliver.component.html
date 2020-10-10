@@ -1,0 +1,21 @@
+<div class="whiteWrapper">
+  <div class="container">
+    <h1>{{ sliverTitle }}</h1>
+    <div class="row">
+      <div class="col-sm-3" *ngFor="let sliveritem of sliverItems">
+        <div class="productbox">
+          <div>
+            <img
+              src="../../../assets/sliver/{{ sliveritem.img }}"
+              class="img-fluid"
+            />
+          </div>
+          <!--<img src="../../assets/img/{{ mobPart.prodImg }}" />-->
+          <div>{{ sliveritem.name }}</div>
+          <div>{{ sliveritem.price }}</div>
+          <div>{{ sliveritem.descrption }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

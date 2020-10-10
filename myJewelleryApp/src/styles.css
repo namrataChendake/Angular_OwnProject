@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.btn-primary {
+  background-color: #7628af !important;
+  border-color: #6b1aa6;
+  margin-right: 15px;
+}
+.productbox {
+  border: 1px solid #cfcfcf;
+  background-color: #dfdfdf;
+  padding: 10px;
+  margin-bottom: 15px;
+}
